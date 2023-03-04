@@ -1,0 +1,12 @@
+#This prompts the user to enter a name and then uses the input in a greeting
+
+name = input("Enter your name: ")
+print("Hello there, {}!".format(name.title()))
+
+#We can also interpret user input as a Python expression using the built-in function eval. This function evaluates a string as a line of Python.
+
+result = eval(input("Enter an expression: "))
+print(result)
+
+#If the user inputs 2 * 3, this outputs 6.
+

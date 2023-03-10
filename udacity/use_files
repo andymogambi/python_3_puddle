@@ -1,0 +1,16 @@
+f = open('my_path/my_file.txt', 'r')
+file_data = f.read()
+f.close()
+#Read file(s)
+
+
+f = open('my_path/my_file.txt', 'w')
+f.write("Hello there!")
+f.close()
+#Write file(s)
+
+with open('my_path/my_file.txt', 'r') as f:
+    file_data = f.read()
+#Reads a file and automatically closes it
+
+

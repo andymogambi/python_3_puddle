@@ -1,0 +1,14 @@
+try:
+    # some code
+except ZeroDivisionError as e:
+   # some code
+   print("ZeroDivisionError occurred: {}".format(e))
+#Accessing the ZeroDivisionError in the proram
+
+
+try:
+    # some code
+except Exception as e:
+   # some code
+   print("Exception occurred: {}".format(e))
+#Accessing any exception error in the program
